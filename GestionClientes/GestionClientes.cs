@@ -25,15 +25,12 @@ namespace GestionClientes
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
-            cliente.Nombre = "asasaasa";
+            cliente.Nombre = txtNombre.Text;
+            cliente.Apellido = txtApellido.Text;
+            cliente.Telefono = txtTelefono.Text;
+            cliente.TarjetaDeCredito = txtTarjetaCredito.Text;
             
-
-
-
-
-
-            string nombre = txtNombre.Text;
-            listClientes.Items.Add(nombre);
+            listClientes.Items.Add(cliente);
 
         }
 
