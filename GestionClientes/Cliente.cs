@@ -20,10 +20,7 @@ namespace GestionClientes
         {
             get { return Nombre + " " + Apellido; }
         }
-        public string numeroTelefonico
-        {
-            get { return Telefono; }
-        }
+     
         public override string ToString()
         {
             return NombreCompleto;
