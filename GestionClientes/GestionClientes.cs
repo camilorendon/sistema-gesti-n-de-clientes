@@ -24,6 +24,14 @@ namespace GestionClientes
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            Cliente cliente = new Cliente();
+            cliente.Nombre = "asasaasa";
+            
+
+
+
+
+
             string nombre = txtNombre.Text;
             listClientes.Items.Add(nombre);
 
